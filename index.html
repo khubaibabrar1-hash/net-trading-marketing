@@ -8,59 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
-<meta name="theme-color" content="#0b5fff">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Net Trading &amp; Marketing — Supplies, IT, Power &amp; Security">
-<meta property="og:description" content="Since 2000. Order supplies, IT &amp; networking, printing, power and CCTV for businesses in Rawalpindi &amp; Islamabad. Call or WhatsApp us.">
-<meta name="twitter:card" content="summary">
-<style>
-:root{--bg:#f6f8fb;--card:#fff;--ink:#0f1b2d;--mute:#5a6a80;--brand:#0b5fff;--line:#e3e8ef;--r:14px}
-@media(prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#121b2e;--ink:#eaf0fa;--mute:#9fb0c8;--line:#22304a;--brand:#4d8dff}}
-*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:70px}
-body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
-h1,h2,h3{font-family:'Space Grotesk',Inter,sans-serif;line-height:1.15}
-.wrap{max-width:1100px;margin:auto;padding:0 20px}
-svg.ic{width:24px;height:24px;flex:none}
-header{position:sticky;top:0;z-index:20;background:var(--card);border-bottom:1px solid var(--line)}
-.bar{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
-.logo{font-family:'Space Grotesk';font-weight:700;font-size:1.15rem;color:var(--ink);text-decoration:none}.logo b{color:var(--brand)}
-nav{display:flex;gap:22px;align-items:center}nav a{color:var(--ink);text-decoration:none;font-weight:500;font-size:.95rem}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:10px;text-decoration:none;border:0;cursor:pointer;font:600 1rem Inter,sans-serif;background:var(--brand);color:#fff}
-.btn.wa{background:#25d366;color:#06361a}.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
-.btn svg{width:20px;height:20px}
-#mt{display:none;background:none;border:0;color:var(--ink);cursor:pointer}
-.hero{padding:72px 0 56px;background:linear-gradient(135deg,#0a3fa8,#0b5fff);color:#fff}
-.hero h1{font-size:clamp(2rem,6vw,3.4rem);max-width:760px}.hero p{max-width:600px;margin:16px 0 28px;opacity:.92;font-size:1.1rem}
-.hero .row{display:flex;gap:12px;flex-wrap:wrap}.hero .ghost{color:#fff;border-color:#ffffff66}
-.tag{display:inline-block;font:600 .8rem 'IBM Plex Mono',monospace;background:#ffffff22;padding:5px 12px;border-radius:99px;margin-bottom:18px}
-section{padding:60px 0}section h2{font-size:clamp(1.6rem,4vw,2.2rem);margin-bottom:8px}.sub{color:var(--mute);margin-bottom:32px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px}
-.card svg{width:34px;height:34px;color:var(--brand);margin-bottom:12px}.card h3{font-size:1.15rem;margin-bottom:8px}
-.card p{color:var(--mute);font-size:.95rem}.card ul{list-style:none;padding:0;margin-top:10px;color:var(--mute);font-size:.9rem}.card li{padding:2px 0}
-.contact{background:var(--card);border-top:1px solid var(--line)}
-.cbox{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
-.num{font:600 clamp(1.5rem,5vw,2.2rem) 'IBM Plex Mono',monospace;color:var(--brand);text-decoration:none;display:block;margin:8px 0 18px}
-.acts{display:flex;gap:10px;flex-wrap:wrap}
-footer{padding:24px 0;text-align:center;color:var(--mute);font-size:.9rem;border-top:1px solid var(--line)}
-
-.ci{list-style:none;padding:0;margin:0 0 18px;display:grid;gap:8px}.ci a{color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:10px;font-weight:500;word-break:break-all}.ci svg{width:20px;height:20px;color:var(--brand)}
-.fcard{grid-column:1/-1}.fcard h3{margin-bottom:4px}.fcard>p{margin-bottom:16px}
-.fg{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fg .full{grid-column:1/-1}
-.fld label{display:block;font-size:.85rem;font-weight:600;margin-bottom:4px}
-.fld input,.fld select,.fld textarea{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:400 1rem Inter,sans-serif}
-.fld input:focus,.fld select:focus,.fld textarea:focus{outline:2px solid var(--brand);outline-offset:1px}
-.fld textarea{min-height:90px;resize:vertical}
-.ferr{color:#d93025;font-size:.85rem;margin-top:10px;min-height:1.2em}
-@media(max-width:760px){.fg{grid-template-columns:1fr}}
-.fab{display:none}
-@media(max-width:760px){
-#mt{display:block}
-nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--card);flex-direction:column;align-items:stretch;padding:14px 20px;border-bottom:1px solid var(--line);gap:14px}
-nav.open{display:flex}.cbox{grid-template-columns:1fr}.hdcall{display:none}
-.fab{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:30;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--card);border-top:1px solid var(--line)}
-.fab .btn{flex:1;justify-content:center;padding:13px 8px}body{padding-bottom:76px}}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -87,56 +35,347 @@ nav.open{display:flex}.cbox{grid-template-columns:1fr}.hdcall{display:none}
     <symbol id="i-ups" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="10" rx="1.4" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M13 9l-3.2 4H12l-1 3.6L14.2 13H12l1-4z" stroke="currentColor" stroke-width="1.2" fill="currentColor" stroke-linejoin="round"/></symbol>
     <symbol id="i-pdu" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="1.2" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="10" cy="7" r=".9" fill="currentColor"/><circle cx="14" cy="7" r=".9" fill="currentColor"/><circle cx="10" cy="11" r=".9" fill="currentColor"/><circle cx="14" cy="11" r=".9" fill="currentColor"/><circle cx="10" cy="15" r=".9" fill="currentColor"/><circle cx="14" cy="15" r=".9" fill="currentColor"/></symbol>
     <symbol id="i-solar" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-gen" viewBox="0 0 24 24"><rect x="3" y="7" width="12" height="10" rx="1" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="9" cy="12" r="2.6" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M15 10h4l2 2v3l-2 2h-4" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-ledwall" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="1" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M3 9h18M3 13h18M8 4v13M13 4v13M18 4v13" stroke="currentColor" stroke-width="1" opacity=".55"/><path d="M8 20h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-signage" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="11" rx="1" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M9 19h6M12 15v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M7 8l2 2 4-3" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 3a6 6 0 00-3.6 10.8c.6.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0012 3z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="9" rx="1" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M3 19h18l-1.6-3.2H4.6L3 19z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-printer" viewBox="0 0 24 24"><rect x="6" y="3" width="12" height="6" stroke="currentColor" stroke-width="1.6" fill="none"/><rect x="4" y="9" width="16" height="8" rx="1" stroke="currentColor" stroke-width="1.6" fill="none"/><rect x="8" y="14" width="8" height="7" stroke="currentColor" stroke-width="1.6" fill="none"/></symbol>
+    <symbol id="i-pos" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="11" rx="1.2" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M4 18h9M8 21h1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M7 8h6M7 11h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M3 8l9-4.5L21 8v8l-9 4.5L3 16V8z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/><path d="M3 8l9 4.5L21 8M12 12.5V21" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="12" cy="12" r="4.4" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="12" cy="12" r="1" fill="currentColor"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3h3l1.5 4-2 1.5a13 13 0 006.5 6.5l1.5-2 4 1.5v3a2 2 0 01-2.2 2A17 17 0 014 5.2 2 2 0 016 3z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M4 6.5l8 6 8-6" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.5 7-11.5A7 7 0 105 9.5C5 14.5 12 21 12 21z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.4" stroke="currentColor" stroke-width="1.6" fill="none"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M3.5 12h17M12 3.5c2.6 2.4 4 5.4 4 8.5s-1.4 6.1-4 8.5c-2.6-2.4-4-5.4-4-8.5s1.4-6.1 4-8.5z" stroke="currentColor" stroke-width="1.4" fill="none"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 21v-7h2.3l.4-3H14V9c0-.9.3-1.5 1.6-1.5H17V5c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.1H8.5v3H10.8v7H14z" fill="currentColor"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+    <symbol id="i-li" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M7.5 10v6.5M7.5 7.4v.1M11.5 16.5V13c0-1.4 1-2.4 2.2-2.4 1.3 0 2 .9 2 2.4v3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3.5A8.5 8.5 0 004.7 16.4L3.5 20.5l4.2-1.2A8.5 8.5 0 1012 3.5z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/><path d="M8.7 8.6c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .5.4.2.5.7 1.6.7 1.7.1.1.1.3 0 .4-.1.2-.1.3-.3.4-.1.2-.3.3-.4.5-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.5 1.5.2.1.4 0 .5-.1l.7-.8c.2-.2.4-.2.6-.1l1.5.7c.2.1.3.2.4.3.1.2.1.9-.2 1.4-.3.6-1.5 1.1-2.1 1.1-.5 0-1.1 0-3.5-1.5-2.9-1.8-4.7-4.7-4.9-4.9-.1-.2-1-1.3-1-2.5 0-1.2.6-1.7.8-2z" fill="currentColor"/></symbol>
   </defs>
 </svg>
 
-<svg style="display:none"><symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></symbol><symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></symbol><symbol id="i-share" viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.4" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="18" cy="6" r="2.4" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="18" cy="18" r="2.4" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M8.2 11l7.6-4M8.2 13l7.6 4" stroke="currentColor" stroke-width="1.6"/></symbol></svg>
-<header><div class="wrap bar"><a class="logo" href="#top">Net <b>Trading</b> &amp; Marketing</a><nav id="nav"><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav><a class="btn hdcall" href="tel:+923308119320"><svg class="ic"><use href="#i-phone"/></svg>Call</a><button id="mt" aria-label="Menu"><svg class="ic"><use href="#i-menu"/></svg></button></div></header>
-<main id="top"><div class="hero"><div class="wrap"><span class="tag">SINCE 2000 · RAWALPINDI &amp; ISLAMABAD</span><h1>Supplies, IT, power &amp; security — one trusted supplier.</h1><p>From general order supplies to networking, printing, UPS systems and CCTV surveillance. Tell us what you need and get a quick quote.</p><div class="row"><a class="btn " href="tel:+923308119320"><svg class="ic"><use href="#i-phone"/></svg>Call Now</a><a class="btn wa" href="https://wa.me/923308119320?text=Hello%20Net%20Trading%20%26%20Marketing%2C%20I%20need%20a%20quote." target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg>WhatsApp</a><button class="btn ghost" id="share"><svg class="ic"><use href="#i-share"/></svg>Share</button></div></div></div>
-<section id="services"><div class="wrap"><h2>What we offer</h2><p class="sub">Everything your office, shop or data room needs.</p><div class="grid"><div class="card"><svg class="ic"><use href="#i-rack"/></svg><h3>General Order Supplies</h3><p>Office and business supplies delivered on order.</p><ul><li>• Stationery &amp; consumables</li><li>• Bulk orders</li><li>• Corporate accounts</li></ul></div><div class="card"><svg class="ic"><use href="#i-router"/></svg><h3>IT &amp; Networking</h3><p>Hardware and cabling for reliable networks.</p><ul><li>• Switches, routers, Wi-Fi</li><li>• LAN &amp; fiber cabling</li><li>• Racks, KVM, patch panels</li></ul></div><div class="card"><svg class="ic"><use href="#i-kvm"/></svg><h3>Printing</h3><p>Printers, toner and printing solutions.</p><ul><li>• Printers &amp; copiers</li><li>• Toner &amp; cartridges</li><li>• Service support</li></ul></div><div class="card"><svg class="ic"><use href="#i-ups"/></svg><h3>Power Systems</h3><p>Keep your equipment running through outages.</p><ul><li>• UPS &amp; batteries</li><li>• PDUs</li><li>• Solar solutions</li></ul></div><div class="card"><svg class="ic"><use href="#i-camera"/></svg><h3>Security Surveillance</h3><p>Design and supply of complete security systems.</p><ul><li>• CCTV cameras &amp; NVR</li><li>• Access control &amp; card readers</li><li>• Speed gates &amp; barriers</li></ul></div></div></div></section>
-<section id="about" style="background:var(--card);border-top:1px solid var(--line)"><div class="wrap"><h2>About us</h2><p class="sub" style="max-width:720px">Net Trading &amp; Marketing has served businesses in Rawalpindi and Islamabad since 2000. We focus on genuine products, fair prices and quick response after the sale.</p></div></section>
-<section id="contact" class="contact"><div class="wrap cbox"><div><h2>Get in touch</h2><p class="sub" style="margin:0">Call, WhatsApp, email — or book an appointment below.</p><a class="num" href="tel:+923308119320">0330 8119320</a><ul class="ci"><li><a href="mailto:khubibabrar1@gmail.com"><svg class="ic"><use href="#i-chat"/></svg>khubibabrar1@gmail.com</a></li></ul><div class="acts"><a class="btn " href="tel:+923308119320"><svg class="ic"><use href="#i-phone"/></svg>Call Now</a><a class="btn wa" href="https://wa.me/923308119320?text=Hello%20Net%20Trading%20%26%20Marketing%2C%20I%20need%20a%20quote." target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg>WhatsApp</a><a class="btn ghost" href="mailto:khubibabrar1@gmail.com?subject=Enquiry"><svg class="ic"><use href="#i-chat"/></svg>Email</a></div></div><div class="card"><h3>Visit / service area</h3><p>Rawalpindi &amp; Islamabad, Pakistan.<br>Mon–Sat, 9:00 AM – 6:00 PM</p></div>
-<div class="card fcard"><h3>Book an appointment / send enquiry</h3><p>Fill in your details and send them to us directly on WhatsApp or email.</p>
-<div class="fg" id="cf">
-<div class="fld"><label for="fn">Your name *</label><input id="fn" autocomplete="name"></div>
-<div class="fld"><label for="fp">Phone *</label><input id="fp" type="tel" autocomplete="tel" inputmode="tel" placeholder="03xx xxxxxxx"></div>
-<div class="fld"><label for="fe">Email</label><input id="fe" type="email" autocomplete="email"></div>
-<div class="fld"><label for="fs">Service</label><select id="fs"><option>General Order Supplies</option><option>IT &amp; Networking</option><option>Printing</option><option>Power Systems</option><option>Security Surveillance</option><option>Other</option></select></div>
-<div class="fld"><label for="fd">Preferred date</label><input id="fd" type="date"></div>
-<div class="fld"><label for="ft">Preferred time</label><input id="ft" type="time"></div>
-<div class="fld full"><label for="fm">Message</label><textarea id="fm" placeholder="Tell us what you need"></textarea></div>
-</div>
-<p class="ferr" id="ferr" role="alert"></p>
-<div class="acts"><button type="button" class="btn wa" id="sendwa"><svg class="ic"><use href="#i-chat"/></svg>Send on WhatsApp</button><button type="button" class="btn" id="sendmail"><svg class="ic"><use href="#i-chat"/></svg>Send by Email</button></div></div>
-</div></section></main>
-<footer>© <span id="y"></span> Net Trading &amp; Marketing. All rights reserved.</footer>
-<div class="fab"><a class="btn " href="tel:+923308119320"><svg class="ic"><use href="#i-phone"/></svg>Call Now</a><a class="btn wa" href="https://wa.me/923308119320?text=Hello%20Net%20Trading%20%26%20Marketing%2C%20I%20need%20a%20quote." target="_blank" rel="noopener"><svg class="ic"><use href="#i-chat"/></svg>WhatsApp</a></div>
-<script>
-document.getElementById('y').textContent=new Date().getFullYear();
-var nav=document.getElementById('nav');
-document.getElementById('mt').onclick=function(){nav.classList.toggle('open')};
-nav.addEventListener('click',function(e){if(e.target.tagName==='A')nav.classList.remove('open')});
-document.getElementById('share').onclick=function(){
- var d={title:document.title,text:'Net Trading & Marketing - supplies, IT, power & security',url:location.href};
- if(navigator.share){navigator.share(d).catch(function(){})}
- else{window.open('https://wa.me/?text='+encodeURIComponent(d.text+' '+d.url),'_blank')}
-};
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">NET</span>
+      <span class="brand-name">Net Trading <em>&amp;</em> Marketing</span>
+    </a>
 
-function fv(i){return document.getElementById(i).value.trim()}
-function buildMsg(){
- var n=fv('fn'),p=fv('fp'),er=document.getElementById('ferr');
- if(!n||!p){er.textContent='Please enter your name and phone number.';return null}
- er.textContent='';
- var l=['Hello Net Trading & Marketing,','Name: '+n,'Phone: '+p];
- if(fv('fe'))l.push('Email: '+fv('fe'));
- l.push('Service: '+fv('fs'));
- if(fv('fd'))l.push('Preferred date: '+fv('fd'));
- if(fv('ft'))l.push('Preferred time: '+fv('ft'));
- if(fv('fm'))l.push('Message: '+fv('fm'));
- return l.join('\n');
-}
-document.getElementById('sendwa').onclick=function(){var m=buildMsg();if(m)window.open('https://wa.me/923308119320?text='+encodeURIComponent(m),'_blank')};
-document.getElementById('sendmail').onclick=function(){var m=buildMsg();if(m)location.href='mailto:khubibabrar1@gmail.com?subject='+encodeURIComponent('Appointment / enquiry from '+fv('fn'))+'&body='+encodeURIComponent(m)};
-</script>
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#catalog">Product Catalog</a>
+      <a href="#process">Process</a>
+      <a href="#why">Why Us</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact" class="nav-cta">Request a Quote</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+      <svg class="icon" width="24" height="24"><use href="#i-menu"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">EST. 2000 · UAE → RAWALPINDI / ISLAMABAD, 2008</p>
+        <h1>Solutions that keep your <span class="hl">sites running,</span> secured and connected.</h1>
+        <p class="hero-sub">Net Trading &amp; Marketing supplies and installs the equipment businesses depend on daily — from CCTV and access control to structured cabling, power protection and data center hardware. One source, direct-from-source pricing, dedicated after-sales support.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Request a Quote <svg class="icon" width="18" height="18"><use href="#i-arrow"/></svg></a>
+          <a href="#catalog" class="btn btn-ghost">Browse Product Catalog</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>18+</dt><dd>Years in operation</dd></div>
+          <div><dt>6</dt><dd>Core solution lines</dd></div>
+          <div><dt>2</dt><dd>Cities served directly</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="port-panel">
+          <div class="port-panel-label">UPLINK / STATUS</div>
+          <div class="port-grid" id="portGrid"></div>
+        </div>
+        <div class="hero-tag hero-tag-1">CAT6 · UTP</div>
+        <div class="hero-tag hero-tag-2">24-PORT PoE SW</div>
+        <div class="hero-tag hero-tag-3">NVR · 32CH</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="reveal">
+        <p class="eyebrow">The Company</p>
+        <h2>Direct-from-source supply, backed by hands-on engineering.</h2>
+        <p>Established in 2000 in the UAE, Net Trading &amp; Marketing expanded operations to Rawalpindi &amp; Islamabad in 2008. We're a trusted provider of general order supplies, business equipment, printing services, IT &amp; networking, power systems and security surveillance — built on a strong commitment to quality, reliability and customer satisfaction.</p>
+        <p>Guided by loyalty, honesty, integrity, reliability and mutual respect, we build long-term, trust-based relationships with customers, suppliers and employees alike.</p>
+        <ul class="check-list">
+          <li><svg class="icon" width="18" height="18"><use href="#i-check"/></svg> Cost-effective, direct-from-source pricing</li>
+          <li><svg class="icon" width="18" height="18"><use href="#i-check"/></svg> Dedicated after-sales support &amp; maintenance</li>
+          <li><svg class="icon" width="18" height="18"><use href="#i-check"/></svg> Compliance with legal &amp; regulatory standards</li>
+        </ul>
+      </div>
+
+      <div class="mv-cards reveal">
+        <div class="mv-card">
+          <svg class="icon icon-lg" width="28" height="28"><use href="#i-target"/></svg>
+          <h3>Mission</h3>
+          <p>Understand and fulfill customer needs with flexible sourcing, competitive pricing, timely delivery and customized solutions.</p>
+        </div>
+        <div class="mv-card">
+          <svg class="icon icon-lg" width="28" height="28"><use href="#i-globe"/></svg>
+          <h3>Vision</h3>
+          <p>Deliver the right products at the right time, every time — building trust-based relationships and becoming the preferred choice in the market.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CORE SERVICES ============ -->
+  <section class="section section-dark" id="services">
+    <div class="container">
+      <p class="eyebrow eyebrow-light">Core Services</p>
+      <h2 class="section-title-light reveal">Six disciplines, one accountable supplier.</h2>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <svg class="icon icon-lg" width="26" height="26"><use href="#i-box"/></svg>
+          <h3>General Order Supplies</h3>
+          <p>Flexible sourcing and procurement of general business supplies, delivered on schedule.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="icon icon-lg" width="26" height="26"><use href="#i-laptop"/></svg>
+          <h3>Business Equipment &amp; IT</h3>
+          <p>Laptops, desktops, POS and office equipment sourced direct, with setup support.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="icon icon-lg" width="26" height="26"><use href="#i-printer"/></svg>
+          <h3>Printing Services &amp; Solutions</h3>
+          <p>Printers, scanners, MFPs and consumables for print-heavy operations.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="icon icon-lg" width="26" height="26"><use href="#i-router"/></svg>
+          <h3>IT &amp; Networking</h3>
+          <p>Structured cabling, switching, routing and Wi-Fi built for growing sites and data centers.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="icon icon-lg" width="26" height="26"><use href="#i-ups"/></svg>
+          <h3>Power Systems</h3>
+          <p>UPS, PDUs, stabilizers and solar backup that keep critical equipment online.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg class="icon icon-lg" width="26" height="26"><use href="#i-shield"/></svg>
+          <h3>Security &amp; Surveillance</h3>
+          <p>CCTV, access control, speed gates and barriers engineered as one integrated system.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCT CATALOG ============ -->
+  <section class="section" id="catalog">
+    <div class="container">
+      <p class="eyebrow">Product Catalog</p>
+      <h2 class="reveal">Technical equipment we supply &amp; install.</h2>
+      <p class="section-lede reveal">A working shortlist of what typically ships on a project — from perimeter security to core data center infrastructure. Ask us for the full line card.</p>
+
+      <div class="catalog-tabs" id="catalogTabs" role="tablist" aria-label="Product categories">
+        <button class="tab-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="tab-btn" data-filter="security" role="tab" aria-selected="false">Security &amp; Surveillance</button>
+        <button class="tab-btn" data-filter="networking" role="tab" aria-selected="false">Networking &amp; Data Center</button>
+        <button class="tab-btn" data-filter="power" role="tab" aria-selected="false">Power Systems</button>
+        <button class="tab-btn" data-filter="displays" role="tab" aria-selected="false">Displays &amp; LED</button>
+        <button class="tab-btn" data-filter="it-equipment" role="tab" aria-selected="false">IT &amp; Office Equipment</button>
+      </div>
+
+      <div class="catalog-grid" id="catalogGrid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="section section-alt" id="process">
+    <div class="container">
+      <p class="eyebrow">Our Process</p>
+      <h2 class="reveal">From site survey to standby support.</h2>
+      <ol class="process-list">
+        <li class="reveal"><span class="step-no">01</span><div><h3>Consultation</h3><p>Understanding client needs through detailed discussions and site assessment.</p></div></li>
+        <li class="reveal"><span class="step-no">02</span><div><h3>Customized Planning</h3><p>Designing tailored specifications and bill of materials to match requirements.</p></div></li>
+        <li class="reveal"><span class="step-no">03</span><div><h3>Professional Execution</h3><p>Implementing installs with precision, professionalism and efficiency.</p></div></li>
+        <li class="reveal"><span class="step-no">04</span><div><h3>On-Time Delivery</h3><p>Ensuring timely completion with quality-focused service standards.</p></div></li>
+        <li class="reveal"><span class="step-no">05</span><div><h3>After-Sales Support</h3><p>Ongoing assistance, maintenance and customer care once you're live.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section class="section" id="why">
+    <div class="container why-grid">
+      <div class="reveal">
+        <p class="eyebrow">Why Choose Us</p>
+        <h2>Built for accountability, not just delivery.</h2>
+        <p>Eighteen years of sourcing and installing the same categories we sell means fewer surprises on-site — and a single point of contact when something needs support after go-live.</p>
+      </div>
+      <div class="why-cards">
+        <div class="why-card reveal">
+          <h3>Industry Expertise</h3>
+          <p>18+ years of experience delivering reliable supplies and solutions.</p>
+        </div>
+        <div class="why-card reveal">
+          <h3>Tailored Solutions</h3>
+          <p>Customized services designed around each client's actual environment.</p>
+        </div>
+        <div class="why-card reveal">
+          <h3>Cutting-Edge Technology</h3>
+          <p>Modern IT, networking and security systems, kept current with the market.</p>
+        </div>
+        <div class="why-card reveal">
+          <h3>Proven Track Record</h3>
+          <p>Trusted by satisfied clients across government, real estate and hospitality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLIENTS ============ -->
+  <section class="section section-alt" id="clients">
+    <div class="container">
+      <p class="eyebrow">Clients &amp; Partners</p>
+      <h2 class="reveal">Trusted across sectors.</h2>
+      <div class="clients-grid reveal">
+        <span>Auditor General of Pakistan</span>
+        <span>APMIA</span>
+        <span>10 Billion Tree Tsunami</span>
+        <span>Fortek</span>
+        <span>Bahria Town International Hospitals</span>
+        <span>Gulberg Greens Islamabad</span>
+        <span>iii Communications</span>
+        <span>Filmorado</span>
+        <span>Loomnest</span>
+        <span>Second Wife Restaurant &amp; Café</span>
+        <span>Gourmet Restaurant</span>
+        <span>Mandi Street</span>
+        <span>Tastefore</span>
+        <span>FTN Marketing</span>
+        <span>Envatox</span>
+        <span>DigiCrawl</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-dark" id="contact">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <p class="eyebrow eyebrow-light">Let's Work Together</p>
+        <h2 class="section-title-light">Tell us what the site needs.</h2>
+        <p class="contact-lede">Send a few details and we'll come back with a scoped recommendation — no generic quotes.</p>
+
+        <ul class="contact-info">
+          <li><svg class="icon" width="20" height="20"><use href="#i-phone"/></svg><a href="tel:+923308119320">0330&#8209;8119320 (Appointments)</a></li>
+          <li><svg class="icon" width="20" height="20"><use href="#i-wa"/></svg><a href="https://wa.me/923308119320?text=Hello%20Net%20Trading%20%26%20Marketing%2C%20I%20need%20a%20quote." target="_blank" rel="noopener">0330&#8209;8119320 (WhatsApp)</a></li>
+          <li><svg class="icon" width="20" height="20"><use href="#i-mail"/></svg><a href="mailto:khubibabrar1@gmail.com">khubibabrar1@gmail.com</a></li>
+          <li><svg class="icon" width="20" height="20"><use href="#i-phone"/></svg><a href="tel:+923346666926">0334&#8209;6666926</a></li>
+          <li><svg class="icon" width="20" height="20"><use href="#i-wa"/></svg><a href="https://wa.me/923346666926" target="_blank" rel="noopener">0334&#8209;6666926 (WhatsApp)</a></li>
+          <li><svg class="icon" width="20" height="20"><use href="#i-mail"/></svg><a href="mailto:nettrading.marketing@gmail.com">nettrading.marketing@gmail.com</a></li>
+          <li><svg class="icon" width="20" height="20"><use href="#i-pin"/></svg><span>23/62, Ayub Plaza, Atalian Shoes, Saddar, Rawalpindi</span></li>
+        </ul>
+
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg class="icon" width="20" height="20"><use href="#i-fb"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg class="icon" width="20" height="20"><use href="#i-ig"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg class="icon" width="20" height="20"><use href="#i-li"/></svg></a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="fName">Full name</label>
+            <input type="text" id="fName" name="name" autocomplete="name" required>
+            <span class="field-error" data-error-for="fName"></span>
+          </div>
+          <div class="field">
+            <label for="fCompany">Company</label>
+            <input type="text" id="fCompany" name="company" autocomplete="organization">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="fEmail">Email</label>
+            <input type="email" id="fEmail" name="email" autocomplete="email" required>
+            <span class="field-error" data-error-for="fEmail"></span>
+          </div>
+          <div class="field">
+            <label for="fPhone">Phone</label>
+            <input type="tel" id="fPhone" name="phone" autocomplete="tel" required>
+            <span class="field-error" data-error-for="fPhone"></span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="fInterest">I'm interested in</label>
+          <select id="fInterest" name="interest">
+            <option value="general">General Order Supplies</option>
+            <option value="it">IT &amp; Networking</option>
+            <option value="security">Security &amp; Surveillance</option>
+            <option value="power">Power Systems</option>
+            <option value="printing">Printing Services</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="fDate">Preferred appointment date</label>
+            <input type="date" id="fDate" name="date">
+          </div>
+          <div class="field">
+            <label for="fTime">Preferred time</label>
+            <input type="time" id="fTime" name="time">
+          </div>
+        </div>
+        <div class="field">
+          <label for="fMessage">Project details</label>
+          <textarea id="fMessage" name="message" rows="4" required></textarea>
+          <span class="field-error" data-error-for="fMessage"></span>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Send on WhatsApp</button>
+          <button type="button" class="btn btn-ghost" id="sendEmail">Send by Email</button>
+        </div>
+        <p class="form-success" id="formSuccess" role="status" hidden>Almost done. WhatsApp or your email app has opened with your details. Just press send.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="brand">
+      <span class="brand-mark">NET</span>
+      <span class="brand-name">Net Trading <em>&amp;</em> Marketing</span>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> Net Trading &amp; Marketing. All rights reserved.</p>
+    <a class="footer-web" href="https://www.nettrading-marketing.com" target="_blank" rel="noopener">www.nettrading-marketing.com</a>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg class="icon" width="20" height="20" style="transform:rotate(-90deg)"><use href="#i-arrow"/></svg>
+</button>
+
+<a class="wa-float" href="https://wa.me/923308119320?text=Hello%20Net%20Trading%20%26%20Marketing%2C%20I%20need%20a%20quote." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="icon" width="26" height="26"><use href="#i-wa"/></svg></a>
+<script src="script.js"></script>
+<script src="contact.js"></script>
 </body>
 </html>
